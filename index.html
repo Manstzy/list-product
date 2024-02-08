@@ -34,64 +34,15 @@
         class="hidden right-0 z-10 bg-gray-500 h-screen w-96 top-0 text-white font-poppins"
       >
         <h1 class="font-poppins ml-10 mt-5">Shopping Cart</h1>
-        
-        <div id="containerSidebar" class="flex flex-col p-4">
-          <div class="flex">
-            <img src="./images/bajujpg.jpg" class="w-20 h-20 mt-5" alt="" />
-            <div>
-              <p class="font-poppins text-sm mt-4 ml-5">title</p>
-              <p class="font-poppins mt-2 ml-5 text-sm">price : $200</p>
-              <div class="font-poppins mt-3 ml-5 text-sm flex gap-3">
-                <img
-                  onclick="left()"
-                  src="./images/left.png"
-                  class="w-5 h-5 text-white filter brightness-0 invert cursor-pointer"
-                  alt=""
-                />
-                <p id="jumlah">1</p>
-                <img
-                  onclick="rigth()"
-                  src="./images/right.png"
-                  class="w-5 h-5 text-white filter brightness-0 invert cursor-pointer"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-          <div class="flex">
-            <img src="./images/bajujpg.jpg" class="w-20 h-20 mt-5" alt="" />
-            <div>
-              <p class="font-poppins text-sm mt-4 ml-5">title</p>
-              <p class="font-poppins mt-2 ml-5 text-sm">price : $200</p>
-              <div class="font-poppins mt-3 ml-5 text-sm flex gap-3">
-                <img
-                  onclick="left()"
-                  src="./images/left.png"
-                  class="w-5 h-5 text-white filter brightness-0 invert cursor-pointer"
-                  alt=""
-                />
-                <p id="jumlah">1</p>
-                <img
-                  onclick="rigth()"
-                  src="./images/right.png"
-                  class="w-5 h-5 text-white filter brightness-0 invert cursor-pointer"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex justify-between mt-[547px]">
+
+        <div id="containerSidebar" class="flex flex-col p-4"></div>
+
+        <div class="flex justify-between absolute bottom-0 w-full">
           <div
             onclick="closeElement()"
             class="bg-red-400 hover:bg-red-500 hover:transition-all hover:duration-300 w-full h-10 flex items-center justify-center cursor-pointer"
           >
             Close
-          </div>
-          <div
-            class="bg-indigo-500 hover:bg-indigo-600 hover:transition-all hover:duration-300 w-full h-10 flex items-center justify-center cursor-pointer"
-          >
-            Checkout
           </div>
         </div>
       </div>
